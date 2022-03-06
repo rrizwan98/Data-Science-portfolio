@@ -1,1 +1,1 @@
-# Lungs-Cancer-Dedection
+# Lungs-Cancer-Classification
