@@ -1,0 +1,2353 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "responses": [
+                "Hello!",
+                "Good to see you again!",
+                "Hi there, how can I help?",
+                "Assalam-o-alaikum",
+                "I am SSSUET AI chat Solve the student qurees"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "goodbye",
+            "patterns": [
+                "cya",
+                "See you later",
+                "Goodbye",
+                "I am Leaving",
+                "Have a Good day"
+            ],
+            "responses": [
+                "Sad to see you go:",
+                "Talk to you later",
+                "Goodbye!",
+                "bye bye",
+                "Allah Hafiz"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Introduction to computing itc techer name",
+            "patterns": [
+                "Introduction to computing teacher name?"
+            ],
+            "responses": [
+                "itc teacher name: Sir Haris Mehboob"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Introduction to computing/ itc credit hours",
+            "patterns": [
+                "Introduction to computing CREDIT HOURS?"
+            ],
+            "responses": [
+                " ITC CREDIT HOURS:3+1."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Introduction to computing itc techer name",
+            "patterns": [
+                "itc teacher room?"
+            ],
+            "responses": [
+                "itc teacher room No:___undefine____"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Introduction to computing / itc course code",
+            "patterns": [
+                "Introduction to computing COURSE CODE"
+            ],
+            "responses": [
+                "Introduction to computing Course Code:SWE105"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "introduction to computing itc class room no",
+            "patterns": [
+                "itc class room No?"
+            ],
+            "responses": [
+                "itc class room:CF:4A"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Programing fundamentals techer name ",
+            "patterns": [
+                "what is programming fundamental teacher name?"
+            ],
+            "responses": [
+                "teacher name:Dr.Rehan Qurashi"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Programing fundamentals rehan qurasi credit hours",
+            "patterns": [
+                "Programing fundamentals CREDIT HOURS?"
+            ],
+            "responses": [
+                "CREDIT HOURS:3+1."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Programing fundamentals rehan qurasi techer room",
+            "patterns": [
+                "Programing fundamentals teacher room?"
+            ],
+            "responses": [
+                "Programing fundamentals teacher room no:CF:01"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Programing fundamentals rehan qurasi course code",
+            "patterns": [
+                "Programing fundamentals COURSE CODE"
+            ],
+            "responses": [
+                "Course Code:SWE102"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Programing fundamentals rehan qurasi class room no",
+            "patterns": [
+                "Programing fundamentals class room No?"
+            ],
+            "responses": [
+                "Programing fundamentals class room:CF:4A"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Programing fundamentals lab techer name",
+            "patterns": [
+                "what is programming fundamental lab teacher name?"
+            ],
+            "responses": [
+                "Programming Fundamental lab teacher Name: Miss Nida khalil."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Programing fundamentals Miss Nida khalil room no",
+            "patterns": [
+                "programming fundamental lab teacher room no"
+            ],
+            "responses": [
+                "Lab teacher room No:AT-03"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Programing fundamentals Miss Nida khalil. Labroom no",
+            "patterns": [
+                "programming fundamental Lab Room No?"
+            ],
+            "responses": [
+                " Lab Room No:cf-05"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Islamic Studies ",
+            "patterns": [
+                "Islamic Studies  teacher name?"
+                
+            ],
+            "responses": [
+                "Is teacher name: Miss Talat"
+                
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Islamic Studies ",
+            "patterns": [
+                
+                "Islamic Studies  CREDIT HOURS?"
+            ],
+            "responses": [
+                
+                " Is CREDIT HOURS:2."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Islamic Studies ",
+            "patterns": [
+                
+                "Islamic Studies  class room?"
+            ],
+            "responses": [
+                
+                "IS class room:CF-4A"           ],
+            "context_set": ""
+        },
+        {
+            "tag": "Islamic Studies ",
+            "patterns": [
+                
+                "Islamic Studies  COURSE CODE"
+            ],
+            "responses": [
+                
+                "IS Course Code:HS101"
+                
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Islamic Studies ",
+            "patterns": [
+                
+                "Islamic Studies  teacher room?"
+            ],
+            "responses": [
+                
+                "Islamic Studies  teacher room:__undefine__"
+            ],
+            "context_set": ""
+        },
+
+
+        {
+            "tag": "Technical English",
+            "patterns": [
+                "Technical English teacher name?"
+            ],
+            "responses": [
+                "Technical English teacher name:Miss Beena"
+                
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Technical English",
+            "patterns": [
+                
+                "Technical English CREDIT HOURS?"
+                
+            ],
+            "responses": [
+              
+                " Technical English CREDIT HOURS:3."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Technical English",
+            "patterns": [
+                
+                "Technical English class room?"
+                
+            ],
+            "responses": [
+                
+                
+                "Technical English class room:CF-4A"
+                
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Technical English",
+            "patterns": [
+                
+                "Technical English COURSE CODE"
+                
+            ],
+            "responses": [
+                
+                "Technical English Course Code:HS102"
+                
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Technical English",
+            "patterns": [
+               
+                "Technical English teacher room?"
+            ],
+            "responses": [
+                
+                "Technical English teacher room:GG-02"
+            ],
+            "context_set": ""
+        },
+
+
+
+        {
+            "tag": "Calculus & Analytical Geometry ",
+            "patterns": [
+                "Calculus & Analytical Geometry  teacher name?"
+                
+            ],
+            "responses": [
+                "Calculus & Analytical Geometry teacher name: Miss Tooba Asif"
+                
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Calculus & Analytical Geometry ",
+            "patterns": [
+                
+                "Calculus & Analytical Geometry  CREDIT HOURS?"
+            ],
+            "responses": [
+                
+                " Calculus & Analytical Geometry HOURS:3."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Calculus & Analytical Geometry ",
+            "patterns": [
+                
+                "Calculus & Analytical Geometry  class room?"
+            ],
+            "responses": [
+
+                "Calculus & Analytical Geometry class room:CF:4A"
+                
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Calculus & Analytical Geometry ",
+            "patterns": [
+                
+                "Calculus & Analytical Geometry  COURSE CODE"
+            ],
+            "responses": [
+                
+                "Calculus & Analytical Geometry Code code:MS103"
+                
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Calculus & Analytical Geometry ",
+            "patterns": [
+                
+                "Calculus & Analytical Geometry  teacher room?"
+            ],
+            "responses": [
+                "Calculus & Analytical Geometry  teacher room:AF-07"
+            ],
+            "context_set": ""
+        },
+
+
+
+        {
+            "tag": "Applied Physics techer name",
+            "patterns": [
+                "Applied Physics  teacher name?"
+                
+            ],
+            "responses": [
+                "Applied Physics teacher name: Sir Ikhlaq"
+                
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Applied Physics credit hours ",
+            "patterns": [
+                
+                "Applied Physics  CREDIT HOURS?"
+                
+            ],
+            "responses": [
+                
+                " Applied Physics CREDIT HOURS:3+1."
+                
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Applied Physics class room ",
+            "patterns": [
+                
+                "Applied Physics  class room?"
+                
+            ],
+            "responses": [
+                
+                "Applied Physics class room:CE-01"
+                
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Applied Physics course code ",
+            "patterns": [
+                
+                "Applied Physics  COURSE CODE"
+                
+            ],
+            "responses": [
+                
+                "Applied Physics Course Code:MS110"
+                
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Applied Physics techer room  ",
+            "patterns": [
+                
+                "Applied Physics  teacher room?"
+            ],
+            "responses": [
+               
+                "Applied Physics  teacher room:__undefine__"
+            ],
+            "context_set": ""
+        },
+
+
+        {
+            "tag": "Basic Electronics techer name ",
+            "patterns": [
+                "Basic Electronics teacher name?"
+                
+            ],
+            "responses": [
+                "Basic Electronics: Sir Chandan Lal"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "Basic Electronics credit hours",
+            "patterns": [
+                
+                "Basic Electronics CREDIT HOURS?"
+                
+            ],
+            "responses": [
+                
+                " Basic Electronics CREDIT HOURS:3+1."
+                
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Basic Electronics class room ",
+            "patterns": [
+                
+                "Basic Electronics class room?"
+                
+            ],
+            "responses": [
+               
+                "Basic Electronics class room:CF-03"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Basic Electronics  ",
+            "patterns": [
+                
+                "Basic Electronics COURSE CODE"
+            ],
+            "responses": [
+                
+                "Basic Electronics Course Code:EE110"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Basic Electronics techer room ",
+            "patterns": [
+                
+                "Basic Electronics teacher room?"
+            ],
+            "responses": [
+                
+                "Basic Electronics teacher room:__undefine__"
+            ],
+            "context_set": ""
+        },
+
+
+        {
+            "tag": "Pakistan Studies & Aligarh Movement techer name",
+            "patterns": [
+                "Pakistan Studies & Aligarh Movement  teacher name?"
+            ],
+            "responses": [
+                "Pakistan Studies & Aligarh Movement  teacher name: Sir Arshad "
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Pakistan Studies & Aligarh Movement credit hours",
+            "patterns": [
+                
+                "Pakistan Studies & Aligarh Movement CREDIT HOURS?"
+                ],
+            "responses": [
+                
+                " Pakistan Studies & Aligarh Movement  HOURS:3+1."
+                
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Pakistan Studies & Aligarh Movement class room",
+            "patterns": [
+                
+                "Pakistan Studies & Aligarh Movement class room?"
+            ],
+            "responses": [
+                
+                "Pakistan Studies & Aligarh Movement  class room:CF-03"
+                
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "Pakistan Studies & Aligarh Movement course code",
+            "patterns": [
+               
+                "Pakistan Studies & Aligarh Movement COURSE CODE"
+            ],
+            "responses": [
+                
+                "Pakistan Studies & Aligarh Movement Course Code:HS103"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Pakistan Studies & Aligarh Movement techer room",
+            "patterns": [
+                
+                "Pakistan Studies & Aligarh Movement teacher room?"
+            ],
+            "responses": [
+                
+                "Pakistan Studies & Aligarh Movement teacher room:AF-07"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "Linear Algebra & Differential Equations techer rrom",
+            "patterns": [
+                "Linear Algebra & Differential Equations  teacher name?"
+            ],
+            "responses": [
+                "Linear Algebra & Differential Equations teacher name: Sir Nasim Akhter"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Linear Algebra & Differential Equations credit hours",
+            "patterns": [
+                
+                "Linear Algebra & Differential Equations CREDIT HOURS?"
+            ],
+            "responses": [
+                
+                "Linear Algebra & Differential Equations CREDIT HOURS:3."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Linear Algebra & Differential Equations class room ",
+            "patterns": [
+                
+                "Linear Algebra & Differential Equations  class room?"
+            ],
+            "responses": [
+                
+                
+                "Linear Algebra & Differential Equations class room:CE-03"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Linear Algebra & Differential Equations course code",
+            "patterns": [
+                
+                "Linear Algebra & Differential Equations  COURSE CODE"
+                
+            ],
+            "responses": [
+                
+                "Linear Algebra & Differential Equations Course Code:MS110"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Linear Algebra & Differential Equations techer room",
+            "patterns": [
+                
+                "Linear Algebra & Differential Equations  teacher room?"
+            ],
+            "responses": [
+                
+                "Linear Algebra & Differential Equations  teacher room:___undefine__"
+            ],
+            "context_set": ""
+        },
+
+        {
+            "tag": "Object Oriented Programming  techer name",
+            "patterns": [
+                "Object Oriented Programming teacher name?"
+            ],
+            "responses": [
+                "Object Oriented Programming  teacher name: Sir Noman Ali Khan"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Object Oriented Programming Sir Noman Ali Khan credit hours ",
+            "patterns": [
+                
+                "Object Oriented Programming CREDIT HOURS?"
+                
+            ],
+            "responses": [
+                
+                "Object Oriented Programming  CREDIT HOURS:3+1"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Object Oriented Programming  class room ",
+            "patterns": [
+                
+                "Object Oriented Programming class room?"
+            ],
+            "responses": [
+                
+                "Object Oriented Programming  class room:CE-01"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Object Oriented Programming course code ",
+            "patterns": [
+                
+                "Object Oriented Programming COURSE CODE"
+            ],
+            "responses": [
+                
+                "Object Oriented Programming  Course Code:SWE103"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Object Oriented Programming Sir Noman Ali Khan techer room ",
+            "patterns": [
+               
+                "Object Oriented Programming teacher room?"
+            ],
+            "responses": [
+                
+                "Object Oriented Programming teacher room:BS-01"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Object Oriented Programming Lab teacher name",
+            "patterns": [
+                "what is Object Oriented Programming lab teacher name?"
+            ],
+            "responses": [
+                "Programming Fundamental lab teacher Name: Miss Noreen."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Object Oriented Programming Lab room no",
+            "patterns": [
+                
+                "Object Oriented Programming Lab Room No?"
+            ],
+            "responses": [
+                
+                " object oriented Lab Room No:CS-04"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Object Oriented Programming Lab teacher No",
+            "patterns": [
+                
+                "Object Oriented Programming Lab teacher No?"
+            ],
+            "responses": [
+                
+                "Object Oriented Programming Lab teacher No: CS-06"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Discrete Mathematics techer name",
+            "patterns": [
+                "Discrete Mathematics  teacher name?"
+            ],
+            "responses": [
+                "Discrete Mathematics teacher name: Sir Rashid Kamal"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Discrete Mathematics credit hours",
+            "patterns": [
+                
+                "Discrete Mathematics  CREDIT HOURS?"
+            ],
+            "responses": [
+                
+                " Discrete Mathematics CREDIT HOURS:3."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Discrete Mathematics class room",
+            "patterns": [
+                
+                "Discrete Mathematics class room?"
+            ],
+            "responses": [
+                
+                
+                "Discrete Mathematics class room:CF-03"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Discrete Mathematics couorse code",
+            "patterns": [
+                
+                "Discrete Mathematics  COURSE CODE"
+            ],
+            "responses": [
+                
+                "Discrete Mathematics Course Code:MS204"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Discrete Mathematics techer room",
+            "patterns": [
+                
+                "Discrete Mathematics  teacher room?"
+            ],
+            "responses": [
+                
+                "Discrete Mathematics  teacher room: AF-07"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Communication Skills techer name",
+            "patterns": [
+                "Communication Skills  teacher name?"
+                
+            ],
+            "responses": [
+                "Communication Skills teacher name: Miss Afra"
+                
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Communication Skills credit hours",
+            "patterns": [
+                
+                "Communication Skills  CREDIT HOURS?"
+            ],
+            "responses": [
+                
+                " Communication Skills CREDIT HOURS:3."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Communication Skills class room",
+            "patterns": [
+                
+                "Communication Skills  class room?"
+                        ],
+            "responses": [
+                
+                "Communication Skills class room:CF-4A"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Communication Skills coourse code",
+            "patterns": [
+                
+                "Communication Skills  COURSE CODE"
+            ],
+            "responses": [
+                
+                "Communication Skills Course Code:HS201"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Communication Skills techer room",
+            "patterns": [
+                
+                "Communication Skills  teacher room?"
+            ],
+            "responses": [
+                
+                "Communication Skills  teacher room: GG-02"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Introduction to Software Engineering",
+            "patterns": [
+                "Introduction to Software Engineering teacher name?"
+                
+            ],
+            "responses": [
+                "Introduction to Software Engineeringteacher name: Sir Yousuf Ali Khan"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Introduction to Software Engineering credit hours",
+            "patterns": [
+                
+                "Introduction to Software Engineering CREDIT HOURS?"
+            ],
+            "responses": [
+                
+                " Introduction to Software Engineering CREDIT HOURS:3+1."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Introduction to Software Engineering class room",
+            "patterns": [
+                
+                "Introduction to Software Engineering class room?"
+            ],
+            "responses": [
+                
+                
+                "Introduction to Software Engineeringclass room:CF-4A"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Introduction to Software Engineeringcouse code",
+            "patterns": [
+                
+                "Introduction to Software Engineering COURSE CODE"
+                
+            ],
+            "responses": [
+                
+                "Introduction to Software Engineering Course Code:SWE106"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Introduction to Software Engineering techer room",
+            "patterns": [
+                
+                "Introduction to Software Engineering teacher room?"
+            ],
+            "responses": [
+                
+                "Introduction to Software Engineering teacher room: ___undefine__"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Introduction to Software Engineering Lab techer name",
+            "patterns": [
+                "what is Introduction to Software Engineering lab teacher name?"
+                
+            ],
+            "responses": [
+                "Programming Fundamental lab teacher Name: Miss Hafsa Nizami."
+                
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Introduction to Software Engineering Lab room no",
+            "patterns": [
+                
+                "Introduction to Software Engineering Lab Room No?"
+                
+            ],
+            "responses": [
+                
+                "Introduction to Software Engineering Lab Room No:BF-02"
+                
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Introduction to Software Engineering Lab no",
+            "patterns": [
+                
+                "Introduction to Software Engineering Lab No?"
+            ],
+            "responses": [
+                
+                "Introduction to Software Engineering Lab No: CF-05"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Digital Logic & Design techer name",
+            "patterns": [
+                "Digital Logic & Design teacher name?"
+            ],
+            "responses": [
+                "Digital Logic & Designteacher name: Miss Roohi"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Digital Logic & Design credit hours",
+            "patterns": [
+                
+                "Digital Logic & Design CREDIT HOURS?"
+                
+            ],
+            "responses": [
+               
+                " Digital Logic & Design CREDIT HOURS:3+1."
+                
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Digital Logic & Design class room",
+            "patterns": [
+                
+                "Digital Logic & Design class room?"
+            ],
+            "responses": [
+                
+                
+                "Digital Logic & Design class room:CF-03"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Digital Logic & Design couse code",
+            "patterns": [
+                
+                "Digital Logic & Design COURSE CODE"
+            ],
+            "responses": [
+               
+                "Digital Logic & Design Course Code:SWE20"
+                
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Digital Logic & Design techer room",
+            "patterns": [
+                
+                "Digital Logic & Design teacher room?"
+            ],
+            "responses": [
+                
+                "Digital Logic & Design teacher room: ___undefine__"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Digital Logic & Design Lab techer room",
+            "patterns": [
+                "what is Digital Logic & Design lab teacher name?"
+            ],
+            "responses": [
+                "Programming Fundamental lab teacher Name: Sir Sadaqatullah Khan."
+               
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Digital Logic & Design Lab room no",
+            "patterns": [
+                
+                "Digital Logic & Design Lab Room No?"
+            ],
+            "responses": [
+                
+                "Digital Logic & Design Lab Room No:FS-02B"
+               
+            ],
+            "context_set": ""
+        },
+        
+        {
+            "tag": "Data Structures & Algorithms techer name",
+            "patterns": [
+                "Data Structures & Algorithms teacher name?"
+            ],
+            "responses": [
+                "Data Structures & Algorithmsteacher name: Miss Saniah Noman"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Data Structures & Algorithms credit hours",
+            "patterns": [
+                
+                "Data Structures & Algorithms CREDIT HOURS?"
+            ],
+            "responses": [
+                
+                " Data Structures & Algorithms CREDIT HOURS:3+1."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Data Structures & Algorithms class room",
+            "patterns": [
+                
+                "Data Structures & Algorithms class room?"
+            ],
+            "responses": [
+                
+                "Data Structures & Algorithms class room:CF-03"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Data Structures & Algorithms course code",
+            "patterns": [
+                
+                "Data Structures & Algorithms COURSE CODE"
+            ],
+            "responses": [
+                
+                "Data Structures & AlgorithmsCourse Code:SWE203"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Data Structures & Algorithms techer room",
+            "patterns": [
+                
+                "Data Structures & Algorithms teacher room?"
+            ],
+            "responses": [
+                
+                "Data Structures & Algorithms teacher room: CF-05"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Data Structures & Algorithms Lab techer name",
+            "patterns": [
+                "what is Data Structures & Algorithms lab teacher name?"
+            ],
+            "responses": [
+                "Programming Fundamental lab teacher Name: Miss Saniah Noman."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Data Structures & Algorithms Lab room no",
+            "patterns": [
+                
+                "Data Structures & Algorithms Lab Room No?"
+            ],
+            "responses": [
+                "Data Structures & Algorithms Lab Room No:BF-03"
+                
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Data Structures & Algorithms Lab room no",
+            "patterns": [
+                
+                "Data Structures & Algorithms Lab room No?"
+            ],
+            "responses": [
+
+                "Data Structures & Algorithms Lab room No: CF-05"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Automata Theory & Formal Languages techer name",
+            "patterns": [
+                "Automata Theory & Formal Languages teacher name?"
+            ],
+            "responses": [
+                "Automata Theory & Formal Languagesteacher name: Miss Mehvish"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Automata Theory & Formal Languages credit hours",
+            "patterns": [
+                
+                "Automata Theory & Formal Languages CREDIT HOURS?"
+            ],
+            "responses": [
+                
+                " Automata Theory & Formal Languages CREDIT HOURS:2."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Automata Theory & Formal Languages class room",
+            "patterns": [
+                
+                "Automata Theory & Formal Languages class room?"
+            ],
+            "responses": [
+                
+                "Automata Theory & Formal Languages class room:EFF-04"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Automata Theory & Formal Languages course code",
+            "patterns": [
+               
+                "Automata Theory & Formal Languages COURSE CODE"
+            ],
+            "responses": [
+                
+                "Automata Theory & Formal LanguagesCourse Code:SWE202"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Automata Theory & Formal Languages techer room",
+            "patterns": [
+                
+                "Automata Theory & Formal Languages teacher room?"
+            ],
+            "responses": [
+                
+                "Automata Theory & Formal Languages teacher room: CF-05"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Computer Organization & Architecture techer name",
+            "patterns": [
+                "Computer Organization & Architecture teacher name?"
+            ],
+            "responses": [
+                "Computer Organization & Architectureteacher name: Sir Amir"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Computer Organization & Architecture credit hours",
+            "patterns": [
+                
+                "Computer Organization & Architecture CREDIT HOURS?"
+            ],
+            "responses": [
+                
+                " Computer Organization & Architecture CREDIT HOURS:3+1."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Computer Organization & Architecture class room",
+            "patterns": [
+                
+                "Computer Organization & Architecture class room?"
+            ],
+            "responses": [
+                
+                "Computer Organization & Architecture class room:CG-06"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Computer Organization & Architecture course code",
+            "patterns": [
+                
+                "Computer Organization & Architecture COURSE CODE"
+            ],
+            "responses": [
+                
+                "Computer Organization & Architecture Course Code:CE207"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Computer Organization & Architecture techer room",
+            "patterns": [
+                
+                "Computer Organization & Architecture teacher room?"
+            ],
+            "responses": [
+                
+                "Computer Organization & Architecture teacher room: FT-08"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Computer Organization & Architecture Lab techer name",
+            "patterns": [
+                "what is Computer Organization & Architecture lab teacher name?"
+            ],
+            "responses": [
+                "Programming Fundamental lab teacher Name: Sir Bilal."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Computer Organization & Architecture Lab room no",
+            "patterns": [
+                
+                "Computer Organization & Architecture Lab Room No?"
+                
+            ],
+            "responses": [
+                
+                "Computer Organization & Architecture Lab Room No:GS-07"
+                
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Computer Organization & Architecture Lab room no",
+            "patterns": [
+                
+                "Computer Organization & Architecture Lab room No?"
+            ],
+            "responses": [
+                
+                "Computer Organization & Architecture Lab room No: __undefine__"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Operating Systemtecher name",
+            "patterns": [
+                "Operating System teacher name?"
+            ],
+            "responses": [
+                "Operating Systemteacher name: Dr Muhammad Naseem"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Operating Systemcredit hours",
+            "patterns": [
+                
+                "Operating System CREDIT HOURS?"
+            ],
+            "responses": [
+                
+                " Operating System CREDIT HOURS:3+1."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Operating System class room",
+            "patterns": [
+                
+                "Operating System class room?"
+            ],
+            "responses": [
+                
+                
+                "Operating System class room:CF-4A"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Operating System course code",
+            "patterns": [
+                
+                "Operating System COURSE CODE"
+            ],
+            "responses": [
+                
+                "Operating System Course Code:SWE204"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Operating System techer room",
+            "patterns": [
+                
+                "Operating System teacher room?"
+            ],
+            "responses": [
+                
+                "Operating System teacher room: CF-01"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Operating System Lab techer name",
+            "patterns": [
+                "what is Operating System lab teacher name?"
+            ],
+            "responses": [
+                "Programming Fundamental lab teacher Name: Miss ."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Operating System Lab room no",
+            "patterns": [
+                
+                "Operating System Lab Room No?"
+                
+            ],
+            "responses": [
+                
+                " Lab Room No:AT-03"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Operating System Lab techer room no",
+            "patterns": [
+                
+                "Operating System Lab teacher room No?"
+            ],
+            "responses": [
+                
+                "Operating System Lab teacher No: __undefine__"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Probability & Statistics techer name",
+            "patterns": [
+                "Probability & Statistics teacher name?"
+            ],
+            "responses": [
+                "Probability & Statisticsteacher name: Sir Aurangzeb"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Probability & Statistics credit hours",
+            "patterns": [
+                
+                "Probability & Statistics CREDIT HOURS?"
+            ],
+            "responses": [
+                
+                " Probability & Statistics CREDIT HOURS:3."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Probability & Statisticsclass room",
+            "patterns": [
+                
+                "Probability & Statistics class room?"
+            ],
+            "responses": [
+               
+                "Probability & Statistics class room:CG-06"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Probability & Statistics course code",
+            "patterns": [
+                
+                "Probability & Statistics COURSE CODE"
+            ],
+            "responses": [
+                
+                "Probability & Statistics Course Code:MS301"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Probability & Statistics techer room",
+            "patterns": [
+                
+                "Probability & Statistics teacher room?"
+            ],
+            "responses": [
+                
+                "Probability & Statistics teacher room: AF-07"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Software Requirement Engineering techer name",
+            "patterns": [
+                "Software Requirement Engineering teacher name?"
+            ],
+            "responses": [
+                "Software Requirement Engineeringteacher name: Dr Syed Saood Zia"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Software Requirement Engineering credit hours",
+            "patterns": [
+                
+                "Software Requirement Engineering CREDIT HOURS?"
+            ],
+            "responses": [
+               
+                " Software Requirement Engineering CREDIT HOURS:3+1."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Software Requirement Engineering class room",
+            "patterns": [
+              
+                "Software Requirement Engineering class room?"
+            ],
+            "responses": [
+                
+                "Software Requirement Engineering class room:CF-4A"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Software Requirement Engineering course code",
+            "patterns": [
+                
+                "Software Requirement Engineering COURSE CODE"
+            ],
+            "responses": [
+                
+                "Software Requirement Engineering Course Code:SWE205"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Software Requirement Engineering techer room",
+            "patterns": [
+                
+                "Software Requirement Engineering teacher room?"
+            ],
+            "responses": [
+                
+                "Software Requirement Engineering teacher room: CF-01"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Software Requirement Engineering Lab techer name",
+            "patterns": [
+                "what is Software Requirement Engineering lab teacher name?"
+            ],
+            "responses": [
+                "Programming Fundamental lab teacher Name: Miss Hafsa Nizami ."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Software Requirement Engineering Lab room no",
+            "patterns": [
+                
+                "Software Requirement Engineering Lab Room No?"
+            ],
+            "responses": [
+                
+                "Software Requirement Engineering Lab Room No:CS-04"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Software Requirement Engineering Lab tech room no",
+            "patterns": [
+                
+                "Software Requirement Engineering Lab teacher room No?"
+            ],
+            "responses": [
+                
+                "Software Requirement Engineering Lab teacher room No: CF-05"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Artificial Intelliigence techer name",
+            "patterns": [
+                "Artificial Intelliigence  teacher name?"
+            ],
+            "responses": [
+                "Artificial Intelliigence teacher name: Miss Sundus Zehra"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Artificial Intelliigence credit hours",
+            "patterns": [
+                
+                "Artificial Intelliigence  CREDIT HOURS?"
+            ],
+            "responses": [
+                
+                " Artificial Intelliigence  CREDIT HOURS:3+1."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Artificial Intelliigence class room",
+            "patterns": [
+                
+                "Artificial Intelliigence  class room?"
+            ],
+            "responses": [
+                
+                "Artificial Intelliigence  class room:CS-02"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Artificial Intelliigence course code",
+            "patterns": [
+                
+                "Artificial Intelliigence  COURSE CODE"
+            ],
+            "responses": [
+                
+                "Artificial Intelliigence  Course Code:SWE407"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Artificial Intelliigence techer room",
+            "patterns": [
+                
+                "Artificial Intelliigence  teacher room?"
+            ],
+            "responses": [
+                
+                "Artificial Intelliigence  teacher room: CS-06"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Artificial Intelliigence Lab techer name",
+            "patterns": [
+                "what is Artificial Intelliigence  lab teacher name?"
+            ],
+            "responses": [
+                "Programming Fundamental lab teacher Name: Miss Nudrat Naveed ."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Artificial Intelliigence Lab room no",
+            "patterns": [
+                
+                "Artificial Intelliigence  Lab Room No?"
+            ],
+            "responses": [
+                
+                "Artificial Intelliigence Lab Room No:CS-04"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Artificial Intelliigence Lab tech room no",
+            "patterns": [
+                
+                "Artificial Intelliigence  Lab teacher room No?"
+            ],
+            "responses": [
+                
+                "Artificial Intelliigence  Lab teacher No:__undefine__"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Computer Communications & Networks techer name ",
+            "patterns": [
+                "Computer Communications & Networks  teacher name?"
+            ],
+            "responses": [
+                "Computer Communications & Networks teacher name: Sir Hassan Zaki"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Computer Communications & Networks credit hours ",
+            "patterns": [
+                
+                "Computer Communications & Networks  CREDIT HOURS?"
+            ],
+            "responses": [
+                
+                " Computer Communications & Networks  CREDIT HOURS:3+1."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Computer Communications & Networks class room ",
+            "patterns": [
+                
+                "Computer Communications & Networks  class room?"
+            ],
+            "responses": [
+               
+                "Computer Communications & Networks  class room: CF-4A"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Computer Communications & Networks course code ",
+            "patterns": [
+                
+                "Computer Communications & Networks  COURSE CODE"
+            ],
+            "responses": [
+                
+                "Computer Communications & Networks  Course Code:SWE306"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Computer Communications & Networks techer room ",
+            "patterns": [
+                
+                "Computer Communications & Networks  teacher room?"
+            ],
+            "responses": [
+                
+                "Computer Communications & Networks  teacher room: __undefine__"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Computer Communications & Networks Lab techer name",
+            "patterns": [
+                "what is Computer Communications & Networks  lab teacher name?"
+            ],
+            "responses": [
+                "Programming Fundamental lab teacher Name: Sir Sadaqatullah Khan."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Computer Communications & Networks Lab room no",
+            "patterns": [
+               
+                "Computer Communications & Networks  Lab Room No?"
+                
+            ],
+            "responses": [
+                
+                "Computer Communications Lab Room No: BF-02"
+                
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Computer Communications & Networks Lab tech room no",
+            "patterns": [
+                
+                "Computer Communications & Networks  Lab teacher room No?"
+            ],
+            "responses": [
+                
+                "Computer Communications & Networks  Lab teacher No: __undefine__"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Introduction to Database System techer name ",
+            "patterns": [
+                "Introduction to Database System teacher name?"
+            ],
+            "responses": [
+                "Introduction to Database System  teacher name: Sir Shariq Durrani"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Introduction to Database System  credit hours ",
+            "patterns": [
+                
+                "Introduction to Database System CREDIT HOURS?"
+            ],
+            "responses": [
+               
+                " Introduction to Database System CREDIT HOURS:3+1."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Introduction to Database System class room ",
+            "patterns": [
+                
+                "Introduction to Database System class room?"
+            ],
+            "responses": [
+                
+                "Introduction to Database System class room: CS-02"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Introduction to Database System course code ",
+            "patterns": [
+               
+                "Introduction to Database System COURSE CODE"
+            ],
+            "responses": [
+               
+                "Introduction to Database System Course Code:SWE301"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Introduction to Database System  techer room",
+            "patterns": [
+                
+                "Introduction to Database System teacher room?"
+            ],
+            "responses": [
+                
+                "Introduction to Database System teacher room: BS-02"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Introduction to Database System  Lab techer name",
+            "patterns": [
+                "what is Introduction to Database System lab teacher name?"
+            ],
+            "responses": [
+                "Programming Fundamental lab teacher Name: Miss Sana Waseem."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Introduction to Database System  Lab room no",
+            "patterns": [
+                
+                "Introduction to Database System Lab Room No?"
+            ],
+            "responses": [
+                
+                "Introduction to Database System Lab Room No: BF-02"
+                
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Introduction to Database System  Lab techer room no",
+            "patterns": [
+                
+                "Introduction to Database System Lab teacher room No?"
+            ],
+            "responses": [
+                
+                "Introduction to Database System Lab teacher No: __undefine__"
+            ],
+            "context_set": ""
+        },
+        
+        {
+            "tag": "Software Design & Archietecture techer name ",
+            "patterns": [
+                "Software Design & Archietecture teacher name?"
+            ],
+            "responses": [
+                "Software Design & Archietecture  teacher name: Miss Dure Shahwar Agha"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Software Design & Archietecture credit hours ",
+            "patterns": [
+                
+                "Software Design & Archietecture CREDIT HOURS?"
+            ],
+            "responses": [
+                
+                " Software Design & Archietecture CREDIT HOURS:2+1."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Software Design & Archietecture class room ",
+            "patterns": [
+                
+                "Software Design & Archietecture class room?"
+            ],
+            "responses": [
+                
+                "Software Design & Archietecture class room: CF-4A"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Software Design & Archietecture course code ",
+            "patterns": [
+                
+                "Software Design & Archietecture COURSE CODE"
+            ],
+            "responses": [
+                
+                "Software Design & Archietecture Course Code:SWE303"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Software Design & Archietecture techer room ",
+            "patterns": [
+                
+                "Software Design & Archietecture teacher room?"
+            ],
+            "responses": [
+                
+                "Software Design & Archietecture teacher room: CS-06"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Software Design & Archietecture  Lab techer name",
+            "patterns": [
+                "what is Software Design & Archietecture lab teacher name?"
+            ],
+            "responses": [
+                "Programming Fundamental lab teacher Name: Miss Hiba."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Software Design & Archietecture  Lab room no",
+            "patterns": [
+                
+                "Software Design & Archietecture Lab Room No?"
+                
+            ],
+            "responses": [
+                
+                "Software Design & Archietecture Lab Room No: BF-03"
+                
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Software Design & Archietecture  Lab tech room no",
+            "patterns": [
+                
+                "Software Design & Archietecture Lab teacher No?"
+            ],
+            "responses": [
+                
+                "Software Design & Archietecture Lab teacher No: __undefine__"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Technical Writting techer name ",
+            "patterns": [
+                "Technical Writting teacher name?"
+            ],
+            "responses": [
+                "Technical Writting  teacher name: Miss Tazeen"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Technical Writting credit hours ",
+            "patterns": [
+                
+                "Technical Writting CREDIT HOURS?"
+            ],
+            "responses": [
+                
+                " Technical Writting CREDIT HOURS:2."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Technical Writting class room ",
+            "patterns": [
+                
+                "Technical Writting class room?"
+            ],
+            "responses": [
+                
+                "Technical Writting class room: CS-02"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Technical Writting course code ",
+            "patterns": [
+                
+                "Technical Writting COURSE CODE"
+            ],
+            "responses": [
+                
+                "Technical Writting Course Code:HS211"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Technical Writting  techer room",
+            "patterns": [
+                
+                "Technical Writting teacher room?"
+            ],
+            "responses": [
+                
+                "Technical Writting teacher room: GG-02"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Compiler Construction techer name ",
+            "patterns": [
+                "Compiler Construction teacher name?"
+            ],
+            "responses": [
+                "Compiler Construction  teacher name:Sir Harris Mehboob/Miss Sanoober Somroo"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Compiler Construction credit hours ",
+            "patterns": [
+                
+                "Compiler Construction CREDIT HOURS?"
+            ],
+            "responses": [
+                
+                " Compiler Construction CREDIT HOURS:3."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Compiler Construction class room ",
+            "patterns": [
+                
+                "Compiler Construction class room?"
+            ],
+            "responses": [
+                
+                "Compiler Construction class room: CS-05"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Compiler Construction course code  ",
+            "patterns": [
+                
+                "Compiler Construction COURSE CODE"
+            ],
+            "responses": [
+                
+                "Compiler Construction class room: CS-05"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Compiler Construction tecer room ",
+            "patterns": [
+               
+                "Compiler Construction teacher room?"
+            ],
+            "responses": [
+               
+                "Compiler Construction teacher room: GG-02"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Enterprise System Engineering techer nmae ",
+            "patterns": [
+                "Enterprise System Engineering teacher name?"
+            ],
+            "responses": [
+                "Enterprise System Engineering  teacher name:Sir Syed Saood Zia"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Enterprise System Engineering credit hours ",
+            "patterns": [
+                
+                "Enterprise System Engineering CREDIT HOURS?"
+            ],
+            "responses": [
+                
+                " Enterprise System Engineering CREDIT HOURS:3."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Enterprise System Engineering class room ",
+            "patterns": [
+                
+                "Enterprise System Engineering class room?"
+                
+            ],
+            "responses": [
+                
+                "Enterprise System Engineering class room: CF-4A"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Enterprise System Engineering course code ",
+            "patterns": [
+                
+                "Enterprise System Engineering COURSE CODE"
+            ],
+            "responses": [
+                
+                "Enterprise System Engineering Course Code:SWE304"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Enterprise System Engineering techer room ",
+            "patterns": [
+                
+                "Enterprise System Engineering teacher room?"
+            ],
+            "responses": [
+               
+                "Enterprise System Engineering teacher room: CF-01"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Information Security  techer name",
+            "patterns": [
+                "Information Security teacher name?"
+            ],
+            "responses": [
+                "Information Security  teacher name:Sir Hassan Zaki/ Miss Roohi Kamal"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Information Security credit hours",
+            "patterns": [
+                
+                "Information Security CREDIT HOURS?"
+            ],
+            "responses": [
+                
+                " Information Security CREDIT HOURS:3."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Information Security class room ",
+            "patterns": [
+                
+                "Information Security class room?"
+            ],
+            "responses": [
+                
+                "Information Security class room: CF-4A"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Information Security course code ",
+            "patterns": [
+                
+                "Information Security COURSE CODE"
+            ],
+            "responses": [
+                
+                "Information Security Course Code:SWE313"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Information Security techer room ",
+            "patterns": [
+                
+                "Information Security teacher room?"
+            ],
+            "responses": [
+               
+                "Information Security teacher room: __undefine__"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Prinnciples of Management & Enterpreneurship techer name ",
+            "patterns": [
+                "Prinnciples of Management & Enterpreneurship  teacher name?"
+            ],
+            "responses": [
+                "Prinnciples of Management & Enterpreneurship teacher name:Sir Kashif Shaikh"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Prinnciples of Management & Enterpreneurship credit hours",
+            "patterns": [
+                
+                "Prinnciples of Management & Enterpreneurship  CREDIT HOURS?"
+            ],
+            "responses": [
+              
+                " Prinnciples of Management & Enterpreneurship  CREDIT HOURS:3."
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Prinnciples of Management & Enterpreneurship class room",
+            "patterns": [
+                
+                "Prinnciples of Management & Enterpreneurship  class room?" 
+            ],
+            "responses": [
+                
+                "Prinnciples of Management & Enterpreneurship  class room: CF-4A"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Prinnciples of Management & Enterpreneurship course code ",
+            "patterns": [
+                
+                "Prinnciples of Management & Enterpreneurship  COURSE CODE"
+            ],
+            "responses": [
+                
+                "Prinnciples of Management & Enterpreneurship  Course Code:HS305"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Prinnciples of Management & Enterpreneurship techer room",
+            "patterns": [
+                
+                "Prinnciples of Management & Enterpreneurship  teacher room?"
+            ],
+            "responses": [
+              
+                "Prinnciples of Management & Enterpreneurship  teacher room: __undefine__"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Software Quality Engineering ",
+            "patterns": [
+                "Software Quality Engineering  teacher name?",
+                "Software Quality Engineering  CREDIT HOURS?",
+                "Software Quality Engineering  class room?",
+                "Software Quality Engineering  COURSE CODE",
+                "Software Quality Engineering  teacher room?"
+            ],
+            "responses": [
+                "Software Quality Engineering teacher name:Sir Farukh Alvi/ Miss Nida Khalil",
+                " Software Quality Engineering  CREDIT HOURS:3.",
+                "Software Quality Engineering  Course Code:SWE305",
+                "Software Quality Engineering  class room: CF-4A",
+                "Software Quality Engineering  teacher room:CF-05"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Web Engineering ",
+            "patterns": [
+                "Web Engineering  teacher name?",
+                "Web Engineering  CREDIT HOURS?",
+                "Web Engineering  class room?",
+                "Web Engineering  COURSE CODE",
+                "Web Engineering  teacher room?"
+            ],
+            "responses": [
+                "Web Engineering teacher name:Miss Priha Bhatti/ Sir Noman Ali Khan",
+                " Web Engineering  CREDIT HOURS:2+1.",
+                "Web Engineering  Course Code:SWE315",
+                "Web Engineering  class room: CS-02",
+                "Web Engineering  teacher room:BS-01"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Web Engineering Lab",
+            "patterns": [
+                "what is Web Engineering  lab teacher name?",
+                "Web Engineering  Lab Room No?",
+                "Web Engineering  Lab teacher No?"
+            ],
+            "responses": [
+                "Programming Fundamental lab teacher Name: Miss Hafsa Nizami.",
+                " Lab Room No: Online",
+                "Web Engineering  Lab teacher No:CF-05"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Big Data Analystics ",
+            "patterns": [
+                "Big Data Analystics  teacher name?",
+                "Big Data Analystics  CREDIT HOURS?",
+                "Big Data Analystics  class room?",
+                "Big Data Analystics  COURSE CODE",
+                "Big Data Analystics  teacher room?"
+            ],
+            "responses": [
+                "Big Data Analystics teacher name:Sir Khalid Mehboob",
+                " Big Data Analystics  CREDIT HOURS:3.",
+                "Big Data Analystics  Course Code:SWE419",
+                "Big Data Analystics  class room: CS-05",
+                "Big Data Analystics  teacher room:CF-05"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Human & Computer Interaction ",
+            "patterns": [
+                "Human & Computer Interaction  teacher name?",
+                "Human & Computer Interaction  CREDIT HOURS?",
+                "Human & Computer Interaction  class room?",
+                "Human & Computer Interaction  COURSE CODE",
+                "Human & Computer Interaction  teacher room?"
+            ],
+            "responses": [
+                "Human & Computer Interaction teacher name:Sir Farukh Alvi",
+                " Human & Computer Interaction  CREDIT HOURS:3.",
+                "Human & Computer Interaction  Course Code:SWE308",
+                "Human & Computer Interaction  class room: CS-05",
+                "Human & Computer Interaction  teacher room:CF-05"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Simulation & Modeling ",
+            "patterns": [
+                "Simulation & Modeling  teacher name?",
+                "Simulation & Modeling  CREDIT HOURS?",
+                "Simulation & Modeling  class room?",
+                "Simulation & Modeling  COURSE CODE",
+                "Simulation & Modeling  teacher room?"
+            ],
+            "responses": [
+                "Simulation & Modeling teacher name:Dr Muhammad Naseem",
+                " Simulation & Modeling  CREDIT HOURS:2+1.",
+                "Simulation & Modeling  Course Code:SWE422",
+                "Simulation & Modeling  class room: CS-05",
+                "Simulation & Modeling  teacher room:CF-01"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Simulation & Modeling Lab",
+            "patterns": [
+                "what is Simulation & Modeling  lab teacher name?",
+                "Simulation & Modeling  Lab Room No?",
+                "Simulation & Modeling  Lab teacher No?"
+            ],
+            "responses": [
+                "Programming Fundamental lab teacher Name: Miss Hafsa Nizami.",
+                " Lab Room No: CS-04",
+                "Simulation & Modeling  Lab teacher No:CF-05"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Organizational Behaviour  ",
+            "patterns": [
+                "Organizational Behaviour teacher name?",
+                "Organizational Behaviour CREDIT HOURS?",
+                "Organizational Behaviour class room?",
+                "Organizational Behaviour COURSE CODE",
+                "Organizational Behaviour teacher room?"
+            ],
+            "responses": [
+                "Organizational Behaviour  teacher name:Sir Adnan Zahoor",
+                " Organizational Behaviour CREDIT HOURS:2.",
+                "Organizational Behaviour Course Code:HS212",
+                "Organizational Behaviour class room: CS-05",
+                "Organizational Behaviour teacher room:CF-01"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Software Project Management  ",
+            "patterns": [
+                "Software Project Management teacher name?",
+                "Software Project Management CREDIT HOURS?",
+                "Software Project Management class room?",
+                "Software Project Management COURSE CODE",
+                "Software Project Management teacher room?"
+            ],
+            "responses": [
+                "Software Project Management  teacher name:Sir Kashif Shaikh",
+                " Software Project Management CREDIT HOURS:3.",
+                "Software Project Management Course Code:SWE401",
+                "Software Project Management class room: CS-05",
+                "Software Project Management teacher room: __undefine__"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "canteen",
+            "patterns": [
+                "ssuet Canteens?",
+                "canteens location?",
+                "ssuet canteen timing"
+            ],
+            "responses": [
+                "Welcome to SSUET canteen!",
+                " SSuet canteen timing open at 9 am to 5 pm. canteens location: 2 canteens are in ssuet 1 for boys near parking gate and 2nd for girls opposite of nazami workshop",
+                " SSuet canteen timing open at 9 am to 5 pm. canteens location: 2 canteens are in ssuet 1 for boys near parking gate and 2nd for girls opposite of nazami workshop"
+            ],
+            "context_set": ""
+        },
+        {
+            "tag": "Library",
+            "patterns": [
+                "Library timing",
+                "what are your hours to open the library",
+                "hours of library"
+            ],
+            "responses": [
+                "library timing of SSUET open 9 am 5 pm Monday-Friday! and 1 pm to 2 pm lunch timing.",
+                "library timing of SSUET open 9 am 5 pm Monday-Friday! and 1 pm to 2 pm lunch timing.",
+                "library timing of SSUET open 9 am 5 pm Monday-Friday! and 1 pm to 2 pm lunch timing."
+            ],
+            "context_set": ""
+        }
+    ]
+}

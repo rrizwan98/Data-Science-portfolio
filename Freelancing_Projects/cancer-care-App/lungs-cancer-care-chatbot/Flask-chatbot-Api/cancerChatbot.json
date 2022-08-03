@@ -1,0 +1,453 @@
+{
+    "intents": [
+        {
+            "context": "greeting",
+            "question": [
+                "Hi",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "answer": [
+                "Hello!",
+                "Good to see you again!",
+                "Hi there, how can I help?",
+                "Assalam-o-alaikum",
+                "hey",
+                "I am Cancer Care AI CHATBOT Solve the patient qurees"
+            ],
+            "context_set": ""
+        },
+        {
+            "context": "goodbye",
+            "question": [
+                "Bye",
+                "See you later",
+                "Goodbye",
+                "Nice chatting to you, bye",
+                "Till next time"
+            ],
+            "responses": [
+                "See you!",
+                "Have a nice day",
+                "Bye! Come back again soon.",
+                "Allah Hafiz"
+            ],
+            "context_set": ""
+        },
+        {
+            "context": "thanks",
+            "question": [
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "Awesome, thanks",
+                "Thanks for helping me"
+            ],
+            "responses": [
+                "Happy to help!",
+                "Any time!",
+                "My pleasure"
+            ],
+            "context_set": ""
+        },
+        {
+            "context": "noanswer",
+            "question": [],
+            "responses": [
+                "Sorry, can't understand you",
+                "Please give me more info",
+                "Not sure I understand"
+            ],
+            "context_set": ""
+        },
+        {
+            "context": "options",
+            "question": [
+                "How you could help me?",
+                "What you can do?",
+                "What help you provide?",
+                "How you can be helpful?",
+                "What support is offered",
+                "who are you?"
+            ],
+            "responses": [
+                "I am like your virtual assistant, you can ask me any questions. If I know I will answer",
+                "I can answer your questions related to Lungs Caner."
+            ],
+            "context_set": ""
+        },
+        {
+            "context": "lungs cancer   پھیپھڑوں کا کینسر کیا ہے؟",
+            "question": [
+                "what is lungs cancer?",
+                "lungs cancer?",
+                "پھیپھڑوں کا کینسر کیا ہے؟",
+                "پھیپھڑوں کا کینسر کیسے پھیلتا ہے۔",
+                "lungs cancer kyia hy?"
+            ],
+            "answer": [
+                "Lung cancer is a type of cancer that begins in the lungs. Your lungs are two spongy organs in your chest that take in oxygen when you inhale and release carbon dioxide when you exhale. Lung cancer is the leading cause of cancer deaths worldwide"
+            ],
+            "context_set": ""
+        },
+        {
+            "context": "lungs cancer spread پھیپھڑوں کا کینسر کیسے پھیلتا ہے۔ lungs cancer ksay phelta hy?",
+            "question": [
+                "How does lungs cancer spread?",
+                "lungs cancer spread?",
+                "spread lungs cancer ?",
+                "پھیپھڑوں کا کینسر کیسے پھیلتا ہے۔",
+                "lungs cancer ksay phelta hy?"
+            ],
+            "answer": [
+                "Lung cancer spreads when cancer cells break off from the primary (original) tumor and travel through the bloodstream or lymphatic system. The lymphatic system is a network of vessels and organs that collects, carries, and filters substances from the body, including cancer cells.The most common areas for lung cancer to spread are: 1. Lymph node 2. Bones 3. Brain 4. Liver Adrenal 5. glands"
+            ],
+            "context_set": ""
+        },
+        {
+            "context": "symptoms of lungs cancer پھیپھڑوں کے کینسر کی علامات کیا ہیں؟  ungs cacner ksay phelta hy ",
+            "question": [
+                "What are the symptoms of lungs cancer?",
+                "symptoms of lungs cancer?",
+                "پھیپھڑوں کے کینسر کی علامات کیا ہیں؟",
+                "lungs cancer symptoms?",
+                "lungs cacner ka symptoms kyia hn?"
+            ],
+            "answer": [
+                "Symptoms of lung cancer may include: 1. shortness of breath 2. changes to the voice such as hoarseness  3. chest pain  4. coughing or spitting up blood 5. a new cough that does not go away  6. chest infection that lasts more than three weeks or keeps coming back 7. enlarged fingertips 8. loss of appetite 9. unexplained weight loss 10 tiredness."
+            ],
+            "context_set": ""
+        },
+        {
+            "context": "Causes of lung cancer",
+            "question": [
+                "What are the Causes of lung cancer?",
+                "Causes of lung cancer?",
+                "پھیپھڑوں کے کینسر کی وجوہات کیا ہیں؟",
+                "lungs cancer kin wajha sa phelta hy?",
+                "lungs cancer causes"
+            ],
+            "answer": [
+                "Factors that can increase your risk of lung cancer include: 1. smoking tobacco 2. second-hand (passive) smoking 3. exposure to asbestos 4. exposure to radon (radioactive gas) 6. HIV infection 7. family history  8. history of lung diseases such as lung fibrosis or emphysema9. older age."
+            ],
+            "context_set": ""
+        },
+        {
+            "context": "lungs cancer cough lungs cacner cough or normal cough lungs cancer Khansi or normal khansi mn kyia farq hy مجھے کیسے پتہ چلے گا کہ یہ پھیپھڑوں کا کینسر ہے یا صرف عام کھانسی؟",
+            "question": [
+                "How do I know if it is lungs cancer or just the common cough?",
+                "lungs cancer cough or normal cough",
+                "normal cough or lungs cancer cough?",
+                "مجھے کیسے پتہ چلے گا کہ یہ پھیپھڑوں کا کینسر ہے یا صرف عام کھانسی؟",
+                "lungs cancer Khansi or normal khansi mn kyia farq hy?"
+            ],
+            "answer": [
+                "While having a cough does not always mean a person has lung cancer, a persistent cough is a common symptom of the condition. If a person experiences a persistent cough alongside other lung cancer symptoms, such as blood in the spit and chest pain, they should contact a doctor immediately"
+            ],
+            "context_set": ""
+        },
+        {
+            "context": "Early signs and symptoms of lung cancer  lungs cancer ki phali stage kyia hy?  first stage of lungs cancer symptoms  پھیپھڑوں کے کینسر کی ابتدائی علامات اور علامات",
+            "question": [
+                "Early signs and symptoms of lung cancer",
+                "early symptoms of lungs cancer",
+                "پھیپھڑوں کے کینسر کی ابتدائی علامات اور علامات",
+                "first stage of lungs cancer symptoms",
+                "lungs cancer ki phali stage kyia hy?"
+            ],
+            "answer": [
+                "Early signs and symptoms of lung cancer include: 1 .a cough that won’t quit or change 2. breathing changes or wheezing 3. body pain 4. raspy, hoarse voice 5. unexplained weight loss"
+            ],
+            "context_set": ""
+        },
+        {
+            "context": "Breathing changes in lungs cancer khansi ki tabdeeli ka ksay pta chla ga  shortness of breath",
+            "question": [
+                "Breathing changes in lungs cancer ",
+                "breath changes",
+                "khansi ki tabdeeli ka ksay pta chla ga?",
+                "shortness of breath"
+            ],
+            "answer": [
+                "Shortness of breath or becoming easily winded are also possible symptoms of lung cancer. Changes in breathing can occur if lung cancer blocks or narrows an airway, or if fluid from a lung tumor builds up in the chest.  Make note of when you feel winded or short of breath. If you find it difficult to breathe after climbing stairs or performing tasks you once found easy, don’t ignore it."
+            ],
+            "context_set": ""
+        },
+        {
+            "context": "wheezing of lung cancer",
+            "question": [
+                "wheezing",
+                "wheezing of lung cancer",
+                "lungs cancer wheezing?"
+            ],
+            "answer": [
+                "However, wheezing can also be a symptom of lung cancer, so it’s a good idea to bring it to your doctor’s attention. It’s best not to assume that wheezing is caused by asthma or allergies. Have your doctor confirm the cause."
+            ],
+            "context_set": ""
+        },
+        {
+            "context": "body pain",
+            "question": [
+                "How do I know if it is lungs cancer or just the common body pain?",
+                "body pain",
+                "lungs cancer body pain?"
+            ],
+            "answer": [
+                "Lung cancer may produce pain in the chest, shoulders, or back. This can happen when you cough or throughout the day. Tell your doctor if you notice any type of chest pain and whether it’s: 1. Sharp 2. Dull 3. constant 4. intermittent"
+            ],
+            "context_set": ""
+        },
+        {
+            "context": "Less common signs and symptoms lungs cancer lungs cancer ki kyia alamat hyn",
+            "question": [
+                "what are the Less common signs and symptoms of lung cancer",
+                "Less common signs and symptoms lungs cancer",
+                "lungs cancer ki kyia alamat hyn?"
+            ],
+            "answer": [
+                "Less common signs and symptoms of lung cancer include: 1. finger clubbing 2. difficulty swallowing 3.swelling of the face or neck 4. blood clots"
+            ],
+            "context_set": ""
+        },
+        {
+            "context": "symptoms of lung cancer different for men or women  difference between lung cancer men and women     men or woman mn lungs cancer mn farq btyn  مردوں یا عورتوں میں پھیپھڑوں کے کینسر کی علامات ہیں؟",
+            "question": [
+                "what Are the symptoms of lung cancer different for men or women?",
+                "مردوں یا عورتوں میں پھیپھڑوں کے کینسر کی علامات ہیں؟",
+                "symptoms of lung cancer different men or women?",
+                "lung cancer different men or women",
+                "difference between lung cancer men and women",
+                "men or woman mn lungs cancer mn farq btyn?"
+            ],
+            "answer": [
+                "The symptoms of lung cancer are the same in both men and women.   However, squamous cell lung cancer is found more often in men. The reason it occurs more in men is because squamous cell lung cancer primarily develops in smokers, and men are statistically more likely to smokeTrusted Source than women."
+            ],
+            "context_set": ""
+        },
+        {
+            "context": "Small cell lung cancer symptoms",
+            "question": [
+                "what Are the Small cell lung cancer symptoms?   چھوٹے سیل پھیپھڑوں کے کینسر کی علامات کیا ہیں؟",
+                "Small cell lung cancer symptoms",
+                "چھوٹے سیل پھیپھڑوں کے کینسر کی علامات کیا ہیں؟"
+            ],
+            "answer": [
+                "Small cell lung cancer (SCLC) and non-small cell lung cancer (NSCLC) are the two main types of lung cancer. SCLC is less common than NSCLC but more aggressive.  SCLC usually has no early symptoms, but when it spreads within the lung or to other parts of your body, you may experience the following: 1.bloody mucus 2. shortness of breath or wheezing 3.chest pain 4.persistent cough 5.loss of appetite 6.facial swelling You should contact your doctor right away if you have any of these symptoms."
+            ],
+            "context_set": ""
+        },
+        {
+            "context": "End-stage last symptoms for lung cancer  lungs cancer ki akhri stage kyia hy  پھیپھڑوں کے کینسر کے آخری مرحلے کی علامات کیا ہیں",
+            "question": [
+                "what Are the End-stage symptoms for lung cancer?",
+                "End stage symptoms for lung cancer?",
+                "last stage symptoms for lung cancer??",
+                "lungs cancer ki akhri stage kyia hy?",
+                "پھیپھڑوں کے کینسر کے آخری مرحلے کی علامات کیا ہیں؟"
+            ],
+            "answer": [
+                "The end-stageTrusted Source of lung cancer doesn’t always look the same. A patient in the final stage might have all or just a few of the symptoms below. Common end-stage symptoms include:  1. pain 2. confusion  3.weakness 4.restlessness 5.loss of appetite 6.cough  7.trouble concentrating or focusing 8.fast or uneven breathing 9.shortness of breath 10.a rattle in the chest in between breaths 11.anxiety 12.depression"
+            ],
+            "context_set": ""
+        },
+        {
+            "context": "Screening for lung cancer  lungs cancer ki screening kyia hn ",
+            "question": [
+                "Screening of lung cancer?",
+                "Screening of lung cancer Screening?",
+                "lungs cancer screening?",
+                "lungs cancer ki screening kyia hn?"
+            ],
+            "answer": [
+                "If lung cancer is detected at an early stage, when there typically are no symptoms, it’s more likely to be successfully treated. Low-dose computer tomography (LDCT) scans have been found to save more lives than chest X-raysTrusted Source when they’re used to screen people with a higher risk of lung cancer. LDCT scans, which use low amounts of radiation, help identify atypical areas in the lungs that could indicate cancer."
+            ],
+            "context_set": ""
+        },
+        {
+            "context": " higher risk for lung cancer   کن لوگوں کو پھیپھڑوں کے کینسر کا زیادہ خطرہ ہے kin logo ko lungs cancer ka zayida khatra hy",
+            "question": [
+                "what are the People at higher risk for lung cancer?",
+                "کن لوگوں کو پھیپھڑوں کے کینسر کا زیادہ خطرہ ہے؟",
+                "higher risk of lungs cacner?",
+                "lungs cacner higher risk",
+                "kin logo ko lungs cancer ka zayida khatra hy?"
+            ],
+            "answer": [
+                "The American Cancer Society’s lung cancer screening guidelinesTrusted Source recommend annual LDCT scans for higher-risk people between the ages of 55 and 74 who meet each of the following conditions:  You currently smoke or have smoked within the past 15 years.   You have a 30-pack-a-year or more smoking history (the number of years you smoked multiplied by the packs of cigarettes smoked each day).  You receive counseling to help quit if you’re a current smoker.  A healthcare professional explained to you the benefits and harms of LDCT scans.  You have access to a facility that performs lung cancer screening."
+            ],
+            "context_set": ""
+        },
+        {
+            "context": "less common symptoms of lungs cancer   پھیپھڑوں کے کینسر کی کم عام علامات؟",
+            "question": [
+                "what are the Less common symptoms of lung cancer?",
+                "less common symptoms of lungs cancer",
+                "پھیپھڑوں کے کینسر کی کم عام علامات؟",
+                "lungs cacner less common symptoms"
+            ],
+            "answer": [
+                "Some of the rarer symptoms of lung cancer are associated with certain types of lung cancer.  Depending on the location of the cancer or how your immune system responds to it, these types of cancer may cause their own unique set of symptoms."
+            ],
+            "context_set": ""
+        },
+        {
+            "context": "how many percent of smoking is responsible for lungs cancer   smoking sa kitna persent lungs cancer hosakta hy  کتنے فیصد تمباکو نوشی پھیپھڑوں کے کینسر کے لیے ذمہ دار ہے",
+            "question": [
+                "how many percent of smoking is responsible for lungs cancer?",
+                "percent of smoking is responsible for lungs cancer",
+                "responsible of smoking in lungs cacner?",
+                "کتنے فیصد تمباکو نوشی پھیپھڑوں کے کینسر کے لیے ذمہ دار ہے",
+                "smoking sa kitna persent lungs cancer hosakta hy?"
+            ],
+            "answer": [
+                "Anybody can get lung cancer, but smoking is responsible for up to 90 percent of lung cancers.  Lung cancer was a relatively rare disease until smoking rates increased drastically in the 1900s. There are now an estimated 225,000Trusted Source cases of lung cancer per year in the United States."
+            ],
+            "context_set": ""
+        },
+        {
+            "context": "Lung Cancer Symptoms in Women  womwn mn lungs cancer ki kyia alamat hyn?  خواتین میں پھیپھڑوں کے کینسر کی علامات",
+            "question": [
+                "Lung Cancer Symptoms in Women?",
+                "symptoms of lungs cacner in woman",
+                "خواتین میں پھیپھڑوں کے کینسر کی علامات?",
+                "women mn lungs cancer ki kyia alamat hyn?"
+            ],
+            "answer": [
+                "Everyone shares the same risk factors for developing lung cancer, regardless of sex. This is especially true of chronic exposure to tobacco smoke, which is responsible for 85 to 90 percentTrusted Source of lung cancer diagnoses overall.  The symptoms of lung cancer in women are also virtually the same as those in men."
+            ],
+            "context_set": ""
+        },
+        {
+            "context": "medicne",
+            "question": [
+                "what are the Lung cancer symptoms in women?",
+                "How are you",
+                "Is anyone there?",
+                "Hello",
+                "Good day"
+            ],
+            "answer": [
+                "Symptoms of lung cancer in women are similar to those experienced in men. These can include:   1. shortness of breath 2. hoarseness 3.a persistent, worsening cough or wheezing 4.coughing up blood 5.chest pain 6.difficulty swallowing 7.unexplained weight loss 8.fatigue"
+            ],
+            "context_set": ""
+        },
+        {
+            "context": "what are the Superior vena cava syndrome  superior vena canva syndrome   سپیریئر وینا کاوا سنڈروم کیا ہیں؟",
+            "question": [
+                "what are the Superior vena cava syndrome?",
+                "Superior vena cava syndrome",
+                "سپیریئر وینا کاوا سنڈروم کیا ہیں؟?",
+                "superior vena canva syndrome"
+            ],
+            "answer": [
+                "Superior vena cava syndrome refers to symptoms that occur when the superior vena cava, a primary vein that transports blood to the heart, is blocked or compressed and blood flow is compromised.  The most common symptoms include:  coughing  2.  swollen face, arms, torso, or neck 3. difficulty breathing"
+            ],
+            "context_set": ""
+        },
+        {
+            "context": "Paraneoplastic syndromes men and woman",
+            "question": [
+                "what are the Paraneoplastic syndromes men and woman?",
+                "Paraneoplastic syndromes men and woman",
+                "men and woman Paraneoplastic syndromes ?"
+            ],
+            "answer": [
+                "Paraneoplastic syndromes are rare disorders caused by an immune system response to a tumor. They can cause symptoms such as: 1. weakness  2. loss of coordination 3. muscles cramps    Paraneoplastic syndromes are mostly seen in lung cancers that are more commonTrusted Source in men, such as:  1. squamous cell lung cancers 2. small cell lung cancers 3. large cell carcinomas"
+            ],
+            "context_set": ""
+        },
+        {
+            "context": "Genetics and hormones in lung cancer   پھیپھڑوں کے کینسر میں جینیات اور ہارمونز کیا ہیں؟",
+            "question": [
+                "what are the Genetics and hormones in lung cancer?",
+                "Genetics and hormones in lung cancer",
+                "lung cancer Genetics and hormones?",
+                "پھیپھڑوں کے کینسر میں جینیات اور ہارمونز کیا ہیں؟"
+            ],
+            "answer": [
+                "Both hormones and genetics may play a role in the differences in lung cancer between men and women.  Examples of these potential factors for women include:  1. the effects of a genetic mutation called K-ras and estrogen on cancer cell growth  2. the timing of menopause and whether early menopause may decrease the risk of lung cancer  3. stronger DNA damage from smoking  Ultimately, much more research needs to be done to fully understand how genetics and hormones affect the likelihood and outcome of lung cancer in women."
+            ],
+            "context_set": ""
+        },
+        {
+            "context": "Effects of smoking for women vs. men  men or women mn smoking ka kyia nuksanat hn?  خواتین بمقابلہ مردوں پر سگریٹ نوشی کے کیا اثرات ہیں",
+            "question": [
+                "what are the Effects of smoking for women vs. men?",
+                "خواتین بمقابلہ مردوں پر سگریٹ نوشی کے کیا اثرات ہیں؟",
+                "Effects of smoking for women vs. men?",
+                "men or women mn smoking ka kyia nuksanat hn?"
+            ],
+            "answer": [
+                "Smoking is the biggest risk factor in developing lung cancer. This risk factor affects everyone differently. There’s no medical consensus on why women smokers are more likely than men smokers to:  1. develop small cell lung cancer  2. have DNA damage  3. have less capacity to repair smoking damage   There’s no medical consensus on why women nonsmokers are more likely than men to:  1. develop adenocarcinoma 2. develop adenocarcinoma"
+            ],
+            "context_set": ""
+        },
+        {
+            "context": "Differences in survival rate between women and men men or women mn survival rate kitna hy    خواتین اور مردوں کے درمیان بقا کی شرح میں فرق؟",
+            "question": [
+                "Differences in survival rate between women and men?",
+                "survival rate between women and men",
+                "خواتین اور مردوں کے درمیان بقا کی شرح میں فرق؟?",
+                "men or women mn survival rate kitna hy?"
+            ],
+            "answer": [
+                "There’s been a gradual rise in lung cancer deaths among women as opposed to a gradual leveling off among men.  The American Lung Association reports that lung cancer rates have decreased by 36 percent in men over the last 42 years, but the rates in women have risen by 84 percent.  The American Cancer Society estimates that women account for around 49 percentTrusted Source of new lung cancer diagnoses in the United States.  The survival rates following treatment are different for women and men with lung cancer. A 2012 studyTrusted Source found that: 1. the median survival at 1 and 2 years was significantly higher in women  2. the risk for death was 14 percent lower in women"
+            ],
+            "context_set": ""
+        },
+        {
+            "context": "mn cancer sa api hifazat ksay kr sakta hon   protect myself and prevent the spread of lungs cancer   میں اپنی حفاظت اور پھیپھڑوں کے کینسر کے پھیلاؤ کو روکنے کے لیے کیا کر سکتا ہوں",
+            "question": [
+                "What can I do to protect myself and prevent the spread of lungs cancer?",
+                "protect myself and prevent the spread of lungs cancer?",
+                "میں اپنی حفاظت اور پھیپھڑوں کے کینسر کے پھیلاؤ کو روکنے کے لیے کیا کر سکتا ہوں؟",
+                "mn cancer sa api hifazat ksay kr sakta hon?"
+            ],
+            "answer": [
+                "1. Don't smoke. If you've never smoked, don't start. 2. Stop smoking. Stop smoking now. 3. Avoid secondhand smoke. 4. Test your home for radon. 5. Avoid carcinogens at work. 6. Eat a diet full of fruits and vegetables. 7. Exercise most days of the week."
+            ],
+            "context_set": ""
+        },
+        {
+            "context": "lungs cancer in pregnancy  lungs cancer during pregnancy  کیا حاملہ خواتین پھیپھڑوں کے کینسر کا زیادہ شکار ہوتی ہیں اور کیا یہ جنین کو نقصان پہنچائے گی",
+            "question": [
+                "Are pregnant women more susceptible to the lungs cancer and will it harm the fetus??",
+                "lungs cancer during pregnancy?",
+                "کیا حاملہ خواتین پھیپھڑوں کے کینسر کا زیادہ شکار ہوتی ہیں اور کیا یہ جنین کو نقصان پہنچائے گی؟",
+                "lungs cancer in pregnancy"
+            ],
+            "answer": [
+                "Breast cancer is the most common cancer found during pregnancy. It affects about 1 in 3,000 women who are pregnant. Other cancers that tend to occur during pregnancy are also generally more common in younger people who are not pregnant"
+            ],
+            "context_set": ""
+        },
+        {
+            "context": "Who is at risk of developing severe lungs cancer  kin logo ko lungs cancer ho sakta hy   کیا حاملہ خواتین پھیپھڑوں کے کینسر کا زیادہ شکار ہوتی ہیں اور کیا یہ جنین کو نقصان پہنچائے گی",
+            "question": [
+                "Who is at risk of developing severe lungs cancer?",
+                "risk of developing severe lungs cancer?",
+                "کس کو پھیپھڑوں کے شدید کینسر ہونے کا خطرہ ہے؟",
+                "kin logo ko lungs cancer ho sakta hy?"
+            ],
+            "answer": [
+                " Your lungs are two spongy organs in your chest that take in oxygen when you inhale and release carbon dioxide when you exhale. Lung cancer is the leading cause of cancer deaths worldwide. People who smoke have the greatest risk of lung cancer, though lung cancer can also occur in people who have never smoked."
+            ],
+            "context_set": ""
+        },
+        {
+            "context": "Are antibiotics effective in preventing or treating lungs cancer   antibiotic lungs cancer pa effect krti hy    کیا اینٹی بائیوٹکس پھیپھڑوں کے کینسر کی روک تھام یا علاج میں موثر ہیں؟",
+            "question": [
+                "Are antibiotics effective in preventing or treating lungs cancer?",
+                "antibiotics effective in preventing or treating lungs cancer?",
+                "کیا اینٹی بائیوٹکس پھیپھڑوں کے کینسر کی روک تھام یا علاج میں موثر ہیں؟",
+                "antibiotic lungs cancer pa effect krti hy?"
+            ],
+            "answer": [
+                "presents characteristics of cases and controls: recent and former smokers, heavy drinkers with more than 20 drinks per week, and subjects with COPD, body mass index less than 18.5 kg/m2, and respiratory infections had an elevated risk of lung cancer. Overall, cases had higher percentage use of antibiotics (for all classes of antibiotics) compared with controls"
+            ],
+            "context_set": ""
+        }
+    ]
+}
